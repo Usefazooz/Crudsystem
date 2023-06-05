@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div class="bggg">
+            <h1 class="text-center p-2">crud system</h1>
+        <div class="container py-5">
+
+
+            <form>
+    
+                <div class="mb-3">
+                    <label for="productName">Product Name</label>
+                    <input type="text" class="form-control mt-1" id="productName">
+                </div>
+                <div class="mb-3">
+                    <label for="productPrice">Product Price</label>
+                    <input type="number" class="form-control mt-1" id="productPrice">
+                </div>
+                <div class="mb-3">
+                    <label for="productCategory">Product Category</label>
+                    <select class="form-select" id="productCategory">
+    
+                        <option value="tv">tv</option>
+                        <option value="mobile">Mobile</option>
+                        <option value="labtop">Labtop</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="productDescription">Product Description</label>
+                    <textarea class="form-control mt-1" id="productDescription"></textarea>
+                </div>
+    
+                <button type="button" id="addd" onclick="addProduct()"class="btn btn-outline-info">Add Product</button>
+                <button type="button" id="eddd" style="display:none;" onclick="edet()"class="btn btn-outline-info" >edit Product</button>
+                <button type="button"onclick="clearform()" class="btn btn-outline-danger">Clear Form</button>
+            </form>
+        </div>
+    </div>
+        <div class="container  p-3">
+            <input type="text"  id="searchInput" onkeyup=" searchh()" placeholder="Search......." class="form-control w-50 mx-auto my-5">
+    
+            <table class="table  table-striped table-bordered  text-center">
+                <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>Product Name</th>
+                        <th>Product Price</th>
+                        <th>Product Category</th>
+                        <th>Product Description</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                   
+                 
+                </tbody>
+            </table>
+        </div>
+  
+
+   <section id="fo">
+    <div class="foer">
+        <div class="container-fluid  cccm ">
+            <div class="row p-3  g-3">
+                <div class="col-md-4 d-flex justify-content-center align-items-center ">
+                    <a href="http://web.facebook.com/yousef.tito78"  target="_blank"><i class="fa-brands fa-facebook icote"></i></a>
+                    
+                    
+                    <a href="http://www.instagram.com/ussef__azooz/" target="_blank"><i class="fa-brands fa-instagram icote fontaa"></i></a>
+                    <a href="https://github.com/Usefazooz/Usefazooz" target="_blank"><i class="fa-brands fa-github icote fontag"></i></a>
+                    
+                    
+                    <!-- <img src="WhatsApp Image 2023-05-10 at 5.28.37 PM (3).jpeg " class="w-50"> -->
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="images/WhatsApp Image 2023-05-10 at 5.28.37 PM (3).jpeg" class="w-50 rounded-circle">
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <h5 class="text-center aaaee">phone number : </h5>
+                    <h5 class="text-center aaaee">01010585723</h5>
+                    <a href="http://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp icote fontaw"></i></a>
+                    <!-- <img src="WhatsApp Image 2023-05-10 at 5.28.37 PM (3).jpeg " class="w-50"> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+   </section>
+        <script src="main.js"></script>
+    </body>
+</html>

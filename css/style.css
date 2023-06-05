@@ -1,0 +1,57 @@
+.bggg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/blackboard-math-calculations-drawing-earth-simple-background.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.bbn{
+    background-color: burlywood;
+}
+label{
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
+}
+.fott{
+    width: 100%;
+    width: 30vh;
+
+
+}
+.aaaa{
+   
+    width: 100%;
+    height: 100%;
+}
+h5{
+    color: aliceblue;
+}
+.sociall{
+    color: aliceblue;
+    font-size: 1.9rem;
+}
+.foer{
+    background-color: #dfdfe1;
+    width: 100%;
+    
+}
+
+.icote{
+    font-size: 2.8rem;
+    margin-left: 20px;
+}
+.fontaa{
+    color: brown;
+}
+.fontag{
+    color: rgb(154, 79, 224);
+}
+.fontaw{
+    color: rgb(57, 168, 68);
+}
+.aaaee{
+    margin-left: 15px;
+    color: black;
+}
